@@ -1,0 +1,34 @@
+{
+  "name": "tanq-language-support",
+  "displayName": "TanQ Language Support",
+  "description": "Adds syntax highlighting and other features for .tanq files.",
+  "publisher": "tanqory",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "tanq",
+        "aliases": ["TanQ", "tanq"],
+        "extensions": [".tanq"],
+        "configuration": "./language-configuration.json",
+        "icon": {
+          "light": "./icons/tanq-light.svg",
+          "dark": "./icons/tanq-dark.svg"
+        }
+      }
+    ],
+    "grammars": [
+      {
+        "language": "tanq",
+        "scopeName": "source.tanq",
+        "path": "./syntaxes/tanq.tmLanguage.json"
+      }
+    ]
+  }
+}

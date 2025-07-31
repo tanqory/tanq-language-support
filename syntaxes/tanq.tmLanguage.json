@@ -1,0 +1,40 @@
+{
+  "name": "TanQ",
+  "scopeName": "source.tanq",
+  "comment": "TanQ HTML Templates",
+  "firstLineMatch": "^{% extends [\"'][^\"']+[\"'] %}",
+  "foldingStartMarker": "(<(?i:(head|table|tr|div|style|script|ul|ol|form|dl))\\b.*?>|{%\\s*(block|filter|for|if|macro|raw))",
+  "foldingStopMarker": "(</(?i:(head|table|tr|div|style|script|ul|ol|form|dl))\\b.*?>|{%\\s*(endblock|endfilter|endfor|endif|endmacro|endraw)\\s*%})",
+  "fileTypes": [".tanq"],
+  "patterns": [
+	{
+      "begin": "(^|\\G)\\s*({%\\s*block\\s+model\\s*%})",
+      "beginCaptures": {
+        "2": { "name": "keyword.control.block.tanq" }
+      },
+      "end": "({%\\s*endblock\\s*%})",
+      "endCaptures": {
+        "1": { "name": "keyword.control.endblock.tanq" }
+      },
+      "name": "meta.json-block.tanq",
+      "patterns": [
+        {
+          "begin": "\\G",
+          "end": "(?={%\\s*endblock\\s*%})",
+          "contentName": "source.json",
+          "patterns": [
+            {
+              "include": "source.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "include": "source.jinja"
+    },
+    {
+      "include": "text.html.basic"
+    }
+  ]
+}
