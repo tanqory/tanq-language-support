@@ -1,6 +1,6 @@
 {
   "name": "tanq-language-support",
-  "displayName": "TanQ Language Support",
+  "displayName": "TanQ for VS Code",
   "description": "Adds syntax highlighting and other features for .tanq files.",
   "publisher": "tanqory",
   "version": "0.0.1",
