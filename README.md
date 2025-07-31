@@ -1,4 +1,4 @@
-# TanQ Language Support for VS Code
+# Tanq Language Support for VS Code
 
 [](https://www.google.com/search?q=https://marketplace.visualstudio.com/items%3FitemName%3Dtanqory.tanq-language-support)
 [](https://www.google.com/search?q=https://marketplace.visualstudio.com/items%3FitemName%3Dtanqory.tanq-language-support)
@@ -7,7 +7,7 @@
 
 ## Overview
 
-The **TanQ Language Support** extension brings enhanced development experience for `.tanq` files right into Visual Studio Code. If you're working with TanQ, this extension provides crucial features like **syntax highlighting** for both the Nunjucks-like template part and the embedded JSON model block, along with a **distinct file icon**.
+The **Tanq Language Support** extension brings enhanced development experience for `.tanq` files right into Visual Studio Code. If you're working with Tanq, this extension provides crucial features like **syntax highlighting** for both the Nunjucks-like template part and the embedded JSON model block, along with a **distinct file icon**.
 
 -----
 
@@ -16,17 +16,17 @@ The **TanQ Language Support** extension brings enhanced development experience f
   * **Syntax Highlighting:** Get proper syntax highlighting for:
       * **Nunjucks-like Templates:** The HTML structure with `{{ ... }}` expressions and `{% ... %}` blocks will be colored correctly, similar to Jinja2 or Liquid templates.
       * **Embedded JSON Block:** The `{% block model %} ... {% endblock %}` section, which contains your JSON model definition, will receive dedicated JSON syntax highlighting, making it easy to read and validate.
-  * **TanQ File Icon:** Files with the `.tanq` extension will display a unique icon in the VS Code Explorer, helping you quickly identify your TanQ files.
+  * **Tanq File Icon:** Files with the `.tanq` extension will display a unique icon in the VS Code Explorer, helping you quickly identify your Tanq files.
 
 -----
 
 ## Installation
 
-You can install the **TanQ Language Support** extension directly from the Visual Studio Code Marketplace:
+You can install the **Tanq Language Support** extension directly from the Visual Studio Code Marketplace:
 
 1.  Open VS Code.
 2.  Go to the Extensions view (`Ctrl+Shift+X` or `Cmd+Shift+X`).
-3.  Search for "TanQ Language Support".
+3.  Search for "Tanq Language Support".
 4.  Click **Install**.
 
 Alternatively, you can install it via the VS Code Marketplace website: [https://marketplace.visualstudio.com/items?itemName=tanqory.tanq-language-support](https://www.google.com/search?q=https://marketplace.visualstudio.com/items%3FitemName%3Dtanqory.tanq-language-support)
@@ -102,7 +102,7 @@ This extension is licensed under the [MIT License](LICENSE.md).
 
 ### 0.0.1
 
-Initial release of TanQ Language Support.
+Initial release of Tanq Language Support.
 
   - Adds syntax highlighting for `.tanq` files (Nunjucks-like HTML + embedded JSON).
   - Provides a custom file icon for `.tanq` files.

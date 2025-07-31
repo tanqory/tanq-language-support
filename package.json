@@ -1,9 +1,9 @@
 {
   "name": "tanq-language-support",
-  "displayName": "TanQ for VS Code",
+  "displayName": "Tanqory for VS Code",
   "description": "Adds syntax highlighting and other features for .tanq files.",
   "publisher": "tanqory",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "icon": "icon.png",
   "engines": {
     "vscode": "^1.102.0"
@@ -19,7 +19,7 @@
     "languages": [
       {
         "id": "tanq",
-        "aliases": ["TanQ", "tanq"],
+        "aliases": ["Tanq", "tanq"],
         "extensions": [".tanq"],
         "configuration": "./language-configuration.json",
         "icon": {
